@@ -1,0 +1,22 @@
+.cards{
+    width: 350px;
+    margin: 60px auto;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards-img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.footer{
+    border-top: 1px solid lightgray;
+    padding-left: 10px;
+}
