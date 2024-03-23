@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-5-html</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th {
+        color: red;
+      }
+
+      .class {
+        background-color: aquamarine;
+      }
+
+      #unique {
+        color: brown;
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Testing Table again with Border and collapse</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Sr.No</th>
+          <th>Student Name</th>
+          <th>Class</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Thorfinn</td>
+          <td>10th</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Thor</td>
+          <td>1tth</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Askeladd</td>
+          <td>12th</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p style="border: dotted">Testing Table with types of Border</p>
+    <p style="border: double">Testing Table with types of Border</p>
+
+    <button style="border: none">Click Me</button>
+    <input style="border: none" type="text" placeholder="Search any product" />
+
+    <h1>Colspan And Rowspan</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Sr.No</th>
+          <th>Student Name</th>
+          <th>Class</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">1 Thorfinn</td>
+          <!-- <td >Thorfinn</td> -->
+          <td>10th</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Thor</td>
+          <td rowspan="3">1tth</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Askeladd</td>
+          <!-- <td>11th</td> -->
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>Lists: ul-li-ol-di-dt-dd</h1>
+    <h3>Un-Order List:</h3>
+    <ul>
+      <li>Cat</li>
+      <li>Dog</li>
+      <li>Sky</li>
+    </ul>
+
+    <h3>Order-List:</h3>
+    <ol>
+      <li>Animals Name</li>
+      <li>Birds Name</li>
+      <li>City Name</li>
+    </ol>
+
+    <h3>Description List:</h3>
+    <dl>
+      <dt>Lion:</dt>
+      <dd>
+        The lion is a large cat of the genus Panthera, native to Africa and
+        India. It has a muscular, broad-chested body; a short, rounded head;
+        round ears; and a hairy tuft at the end of its tail.
+      </dd>
+      <dt>Cat:</dt>
+      <dd>
+        The cat, commonly referred to as the domestic cat or house cat, is the
+        only domesticated species in the family Felidae.
+      </dd>
+      <dt>Dog:</dt>
+      <dd>
+        The dog is a domesticated descendant of the wolf. Also called the
+        domestic dog, it is derived from extinct gray wolves, and the gray wolf
+        is the dog's closest living relative.
+      </dd>
+    </dl>
+
+    <h1>Testing class and id</h1>
+    <p class="class">Testing class attribute in html</p>
+    <p id="unique">Testing id attribute in html</p>
+  </body>
+</html>
