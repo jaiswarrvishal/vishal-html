@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Day-6</h1>
+    <p>testing <b>iframe</b> which represent nested browsing contex:</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6809.243693194502!2d78.26475615!3d31.424543299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39066b5c1f6033db%3A0x5423d2cb12e0d1e6!2sSangla%2C%20Himachal%20Pradesh%20172106!5e0!3m2!1sen!2sin!4v1711282784806!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <br />
+    <p>
+      <b>NOTE</b>: some websites does not allow to access their link like below.
+    </p>
+    <iframe height="2px" width="20px" src="https://developer.mozilla.org/en-US/" frameborder="0"></iframe>
+
+    <h1>HTML Forms:</h1>
+    <h3>input fields-</h3>
+    <input type="text" placeholder="text" /> <br />
+    <input type="number" placeholder="number" /> <br />
+    <input type="password" placeholder="password" /> <br />
+    <input type="date" /> <br />
+    <input type="email" placeholder="email" /> <br />
+    <input type="file" /> <br />
+    <label for="">choose color: </label>
+    <input type="color" /> <br />
+    <label for="">input- type is button and value is submit button: </label>
+    <input type="button"  value="submit button"/> <br />
+    <label for="check">checkbox: </label>
+    <input type="checkbox" id="check" /> <br />
+    <label for="rad"> Radio:</label>
+    <input type="radio" id="rad" /> <br />
+    <label for="">Textarea: </label>
+    <textarea
+      name=""
+      id=""
+      cols="20"
+      rows="3"
+      placeholder="yoou can discribe.."
+    ></textarea> <br> <br>
+    <input type="submit" /> <br>
+    <input type="url" placeholder="mentioned correct url" /> <br>
+    <label for=""> we can mention range value:</label>
+    <input type="range" min="0" max="10" value="4" /> <br>
+    <label for="">we can lock date's range: </label>
+    <input type="date" min="2023-03-05" max="2024-03-27" />
+
+    <br><br>
+    <h2>lets build one basic form:</h2>
+    <form>
+        <label for="name">FullName: </label> <br>
+        <input type="text" id="name" placeholder="enter fullname" /><br>
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" placeholder="enter email" /> <br>
+        <label for="pass">Passwrd: </label> <br>
+        <input type="password" id="pass" placeholder="enter password" /> <br> <br>
+        <input type="reset" />
+        <input type="submit" />
+    </form>
+  </body>
+</html>
