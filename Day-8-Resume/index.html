@@ -17,6 +17,17 @@
       .skills {
         padding: 7px;
       }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 4px;
+      }
+      .highlight{
+        background-color: lightgray;
+        padding: 2px;
+      }
     </style>
   </head>
   <body>
@@ -34,7 +45,7 @@
       </div>
       <div class="skills">
         <p>
-          Front End Developer woth 3 months of Experience with JavaScript,
+          Front End Developer with 3 months of Experience with JavaScript,
           HTML/CSS to deliver exceptional custmer experiences. Adept at
           contributing to a highly collaborative work environmnet, finding
           solutons, and determinataion customer satifcation.
@@ -66,8 +77,44 @@
 
         <h2>Education:</h2>
         <ul>
-          <li>B.E. Electronic(2023): Mumbai University with <b>CGPA 6/10</b></li>
+          <li>
+            B.E. Electronic(2023): Mumbai University with <b>CGPA 6/10</b>
+          </li>
         </ul>
+
+        <hr />
+        <div class="table">
+          <table>
+            <tr>
+              <th>Education</th>
+              <th>Passing year</th>
+              <th>Marks</th>
+            </tr>
+            <tr>
+              <td>10th</td>
+              <td>2016</td>
+              <td>80%</td>
+            </tr>
+            <tr>
+              <td>12th</td>
+              <td>2018</td>
+              <td>70%</td>
+            </tr>
+            <tr>
+              <td>B.E.</td>
+              <td>2023</td>
+              <td>60%</td>
+            </tr>
+          </table>
+        </div>
+        <h3 class="highlight">Language I can speak</h3>
+        <label for="">English: </label>
+        <input min="0" max="10" type="range" value="9" /><br />
+        <label for="">Hindi: </label>
+        <input min="0" max="10" type="range" value="10" />
+      </div>
+      <div class="img">
+        <img height="150px" src="https://albumdelhi.com/wp-content/uploads/2021/08/passport-1-600x676.jpg" alt="">
       </div>
     </div>
   </body>
