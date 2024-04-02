@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: rgb(255, 254, 255);
+    padding: 10px;
+    margin-left: 20px;
+}
+div{
+    background-color: orangered;
+    text-align: center;
+}
+div span{
+    background-color: aqua;
+}
+.inline{
+    background-color: blueviolet;
+    color: red;
+    /* margin-top: 50px; */
+    width: 200px;
+    margin: 50px auto;
+    border: 10px solid black;
+}

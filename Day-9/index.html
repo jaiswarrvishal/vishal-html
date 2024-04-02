@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-9</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      h1 {
+        text-align: center;
+      }
+      #testId {
+        color: blue;
+      }
+      .testClass {
+        color: aqua;
+      }
+      h3.testElementClass {
+        background-color: orange;
+      }
+      .inline {
+        border: 5px solid black;
+        margin: 20px auto;
+        color: yellow;
+        background-color: ;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML Media</h1>
+    <h3>HTML Video</h3>
+    <video controls>
+      <source src="../Day-9/media/mov_bbb.mp4" />
+    </video>
+    <h3>HTML Image</h3>
+    <img
+      src="../Day-9/media/tomas-malik-orQBzc7Dl3U-unsplash.jpg"
+      alt="Fuji Mountain"
+      height="300px"
+    />
+    <h3>HTML Audio</h3>
+    <audio controls>
+      <source src="../Day-9/media/horse.ogv" />
+    </audio>
+    <h3>HTML YouTube</h3>
+    <iframe
+      width="450"
+      height="300"
+      src="https://www.youtube.com/embed/D8ZZPIwrFfs?si=pDeywImOhyHCupJx"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <hr />
+    <h1>Starting CSS</h1>
+    <p id="testId">Testing Id Selector.</p>
+    <p class="testClass">Testing Class Selector.</p>
+    <h3 class="testElementClass">Testing ElementClass Selector.</h3>
+    <br />
+    <div class="universal">
+      <h2 class="testuniversalClass">Testing ElementClass Selector.</h2>
+      <span>testing: Selects all div elements and all span elemnets</span>
+    </div>
+
+    <p style="color: aqua ; margin: 100px auto; border: 2px solid black;" class="inline">
+      Checking external/internal/inline css:
+    </p>
+
+  </body>
+</html>
