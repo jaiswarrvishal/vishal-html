@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    /* background-color: antiquewhite; */
+
+    /* height: 1500px; */
+}
+#fullpage{
+    /* border: 2px solid black; */
+    /* margin: auto; */
+    /* background-color: lightgray; */
+}
+#navbar{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    /* background-color: lightcoral; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.leftNav{
+    height: 100%;
+    width: 55%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstLeftNav{
+    height: 70%;
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.secondLeftNav{
+    height: 56%;
+    width: 77%;
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* background-color: lightgray; */
+}
+.secondLeftNav i{
+    margin-left: 10px;
+    color: rgb(160, 159, 159);
+}
+.secondLeftNav input{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    padding: 10px;
+    /* color: rgb(235, 233, 233); */
+    /* background-color: lightgray; */
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color: rgb(163, 162, 162);
+}
+
+
+
+.rightNav{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid rgb(2, 2, 2); */
+    display: flex;
+    justify-content: space-between;
+}
+.rightNavFirst{
+    width: 35%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightNavFirst a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.rightNavFirst i{
+    cursor: pointer;
+}
+.rightNavSecond{
+    width: 29%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightNavSecond button{
+    padding: 5px 13px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #F84464;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.rightNavThird{
+    width: 18%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightNavThird i{
+    /* width: 10px; */
+}
+
