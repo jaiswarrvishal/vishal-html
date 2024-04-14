@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+#fullpage{
+    border: 2px solid black;
+}
+.firstNav{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+}
+.secondNav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 22px;
+    height: 70px;
+    /* border: 1px solid lightgray; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.oneSecondNav{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.twoSecondNav{
+    width: 14%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threeSecondNav{
+    width: 14%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forthSecondNav{
+    width: 14%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifthSecondNav{
+    width: 18%;
+    /* border: 1px solid blue; */
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.logoCircle{
+    height: 80%;
+    width: 52px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: #E51D56;
+    
+}
+.logoCircle i{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* third Navbar */
+.topBorder{
+    border-top: 1px solid lightgray;
+}
+.thirdNav{
+    height: 90px;
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.oneThirdNav{
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* overflow: hidden; */
+}
+.logoDiv{
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.logoDiv img{
+    width: 28px;
+}
+.logoDiv p{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.twoThirdNav{
+    width: 3%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin-right: 60px; */
+    /* color: gray; */
+}
+.rightArrow{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    /* color: lightgray; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.threeThirdNav{
+    width: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+.filters{
+    width: 100px;
+    padding: 12px 3px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.filters h5{
+    font-size: 12px;
+}
+.fourThirdNav{
+    width: 17%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.display{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+/* .toggleOff{
+    border: 1px solid black;
+
+} */
+.display i{
+    margin-left: 10px;
+}
+
+.forthNav{
+    width: 90%;
+    margin: auto;
+    /* height: 2000px; */
+    /* height: 250px; */
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    /* border: 2px solid black; */
+    border-radius: 9px;
+    height: 380px;
+    width: 23%;
+    margin-bottom: 45px;
+}
+.image img{
+    width: 100%;
+    height: 280px;
+    border-radius: 9px;
+}
+
+.text{
+   /* width: 40%; */
+   margin-top: 10px;
+   /* display: flex; */
+   /* justify-content: space-between; */
+}
+.textOne{
+    display: flex;
+    justify-content: space-between;
+}
+.lightColor{
+    color: gray;
+}
+.rupee{
+    display: flex;
+}
+.rupee span{
+    margin-left: 5px;
+    color: gray;
+}

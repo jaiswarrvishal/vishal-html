@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-16</title>
+    <style>
+        #fullpage{
+            border: 2px solid brown;
+            /* width: 100%; */
+            height: 300px;
+            padding: 20px;
+            display: flex;
+            overflow: hidden;
+        }
+        .parentDiv{
+            overflow: visible;
+            /* overflow: hidden; */
+            /* overflow: auto; */
+            /* overflow: scroll; */
+            /* overflow: clip; */
+            border: 1px solid black;
+            height: 200px;
+            width: 20%;
+            margin-right: 20px;
+        }
+        .parentDivOne{
+            overflow: clip;
+            border: 1px solid black;
+            height: 200px;
+            width: 20%;
+            margin-right: 30px;
+        }
+        .parentDivTow{
+            overflow: hidden;
+            border: 1px solid black;
+            height: 200px;
+            width: 20%;
+            margin-right: 30px;
+        }
+        .parentDivThree{
+            overflow: auto;
+            border: 1px solid black;
+            height: 200px;
+            width: 20%;
+            margin-right: 30px;
+        }
+        .parentDivFour{
+            overflow: scroll;
+            border: 1px solid black;
+            height: 200px;
+            width: 20%;
+            margin-right: 30px;
+        }
+        .marginAuto{
+            border: 2px solid red;
+            width: 70%;
+            height: 200px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            /* margin-top: 10px; */
+        }
+        .mediaQuery{
+            background-color: rgb(64, 255, 0);
+            height: 200px;
+            width: 100%;
+            border: 2px solid rgb(23, 92, 231);
+        }
+        @media screen and (max-width: 500px) {
+            .mediaQuery{
+                background-color: orangered;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Day-16: CSS</h1>
+<h3>Media queries:</h3>
+    <div class="mediaQuery">
+
+    </div>
+
+<div id="fullpage">
+    <div class="parentDiv">
+        <p style="background-color: blue; color: white;">overflow: visible</p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+        mollitia commodi facere alias ipsam consequatur iste voluptatibus odio
+        vero voluptate mole color white tempore ex officia at impedit quod, illum
+        accusamus nulla. Aspernatur cum quia voluptatum placeat earum eius quis
+        amet. Corrupti. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Dicta, maxime.
+      </div>
+      <div class="parentDivOne">
+        <p style="background-color: blue; color: white;">overflow: clip</p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+          mollitia commodi facere alias ipsam consequatur iste voluptatibus odio
+          vero voluptate molestias tempore ex officia at impedit quod, illum
+          accusamus nulla. Aspernatur cum quia voluptatum placeat earum eius quis
+          amet. Corrupti. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Dicta, maxime.
+        </div>
+        <div class="parentDivTow">
+            <p style="background-color: blue; color: white;">overflow: hidden</p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+            mollitia commodi facere alias ipsam consequatur iste voluptatibus odio
+            vero voluptate molestias tempore ex officia at impedit quod, illum
+            accusamus nulla. Aspernatur cum quia voluptatum placeat earum eius quis
+            amet. Corrupti. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dicta, maxime.
+          </div>
+          <div class="parentDivThree">
+            <p style="background-color: blue; color: white;">overflow: auto</p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+              mollitia commodi facere alias ipsam consequatur iste voluptatibus odio
+              vero voluptate molestias tempore ex officia at impedit quod, illum
+              accusamus nulla. Aspernatur cum quia voluptatum placeat earum eius quis
+              amet. Corrupti. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dicta, maxime.
+            </div>
+            <div class="parentDivFour">
+                <p style="background-color: blue; color: white;">overflow: scroll</p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+                mollitia commodi facere alias ipsam consequatur iste voluptatibus odio
+                vero voluptate molestias tempore ex officia at impedit quod, illum
+                accusamus nulla. Aspernatur cum quia voluptatum placeat earum eius quis
+                amet. Corrupti. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dicta, maxime.
+              </div>
+</div>
+    
+<div class="marginAuto">
+    <p style="background-color: blue; color: white; width: 150px; text-align: center;">Testing Margin-Auto: Center Align Elements:</p>
+
+</div>
+
+<p style="background-color: rgb(255, 72, 0); color: white;">Center an Image:</p>
+<img src="https://source.unsplash.com/1600x1000/?burger" alt=""> 
+
+
+  </body>
+</html>
